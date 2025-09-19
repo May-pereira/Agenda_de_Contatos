@@ -1,0 +1,88 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF9DB; /* Fundo amarelo pastel */
+}
+
+header {
+    background-color: #FFE066; /* Um amarelo mais intenso para destaque */
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #FFECB3; /* Amarelo pastel claro */
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 2px solid #ddd;
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4D90FE; /* Azul claro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+    background-color: #357ae8;
+}
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+h2 {
+    color: #444;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFD54F;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFDE7;
+}
+
+tr:hover {
+    background-color: #FFF8DC;
+}
